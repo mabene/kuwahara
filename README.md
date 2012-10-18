@@ -22,6 +22,9 @@ The approach is fully CPU-based (as opposed to other implementations that levera
 GCD and the Accelerate framework are employed to speed up computations.
 Last but not least, a dedicated incremental algorithm is used to compute the filter.
 
+This implementation is meant for still images, not live video frames.
+For this filter, real-time performace on iOS devices seem difficult to achieve on either the CPU or the GPU.
+
 ## License ##
 
 BSD-style license. Can be used in commercial and non-commercial projects.
