@@ -10,4 +10,12 @@
 
 @interface MabeViewController : UIViewController
 
+@property (retain, nonatomic) IBOutlet UIImageView *originalImageView;
+@property (retain, nonatomic) IBOutlet UIImageView *filteredImageView_r2;
+@property (retain, nonatomic) IBOutlet UIImageView *filteredImageView_r3;
+@property (retain, nonatomic) IBOutlet UIImageView *filteredImageView_r4;
+@property (retain, nonatomic) IBOutlet UIImageView *filteredImageView_r6;
+@property (retain, nonatomic) IBOutlet UIImageView *filteredImageView_r8;
+
+
 @end

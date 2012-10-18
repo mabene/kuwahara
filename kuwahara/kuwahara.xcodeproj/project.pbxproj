@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2533C5CD16306F1F0057511F /* UIImage+kuwahara.m in Sources */ = {isa = PBXBuildFile; fileRef = 256626BC16306DC700281B13 /* UIImage+kuwahara.m */; };
 		2566269116306C6D00281B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269016306C6D00281B13 /* UIKit.framework */; };
 		2566269316306C6D00281B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269216306C6D00281B13 /* Foundation.framework */; };
 		2566269516306C6D00281B13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269416306C6D00281B13 /* CoreGraphics.framework */; };
@@ -18,6 +19,8 @@
 		256626A716306C6D00281B13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256626A616306C6D00281B13 /* Default-568h@2x.png */; };
 		256626AA16306C6D00281B13 /* MabeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256626A916306C6D00281B13 /* MabeViewController.m */; };
 		256626AD16306C6D00281B13 /* MabeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256626AB16306C6D00281B13 /* MabeViewController.xib */; };
+		256626B816306DA000281B13 /* peg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 256626B716306DA000281B13 /* peg.jpg */; };
+		256626BE16306DD700281B13 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256626BD16306DD700281B13 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		256626A816306C6D00281B13 /* MabeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MabeViewController.h; sourceTree = "<group>"; };
 		256626A916306C6D00281B13 /* MabeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MabeViewController.m; sourceTree = "<group>"; };
 		256626AC16306C6D00281B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MabeViewController.xib; sourceTree = "<group>"; };
+		256626B716306DA000281B13 /* peg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = peg.jpg; sourceTree = "<group>"; };
+		256626BB16306DC700281B13 /* UIImage+kuwahara.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+kuwahara.h"; sourceTree = "<group>"; };
+		256626BC16306DC700281B13 /* UIImage+kuwahara.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kuwahara.m"; sourceTree = "<group>"; };
+		256626BD16306DD700281B13 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256626BE16306DD700281B13 /* Accelerate.framework in Frameworks */,
 				2566269116306C6D00281B13 /* UIKit.framework in Frameworks */,
 				2566269316306C6D00281B13 /* Foundation.framework in Frameworks */,
 				2566269516306C6D00281B13 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +81,7 @@
 		2566268F16306C6D00281B13 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				256626BD16306DD700281B13 /* Accelerate.framework */,
 				2566269016306C6D00281B13 /* UIKit.framework */,
 				2566269216306C6D00281B13 /* Foundation.framework */,
 				2566269416306C6D00281B13 /* CoreGraphics.framework */,
@@ -89,6 +98,7 @@
 				256626A916306C6D00281B13 /* MabeViewController.m */,
 				256626AB16306C6D00281B13 /* MabeViewController.xib */,
 				2566269716306C6D00281B13 /* Supporting Files */,
+				256626BA16306DB200281B13 /* Filtering */,
 			);
 			path = kuwahara;
 			sourceTree = "<group>";
@@ -103,8 +113,18 @@
 				256626A216306C6D00281B13 /* Default.png */,
 				256626A416306C6D00281B13 /* Default@2x.png */,
 				256626A616306C6D00281B13 /* Default-568h@2x.png */,
+				256626B716306DA000281B13 /* peg.jpg */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		256626BA16306DB200281B13 /* Filtering */ = {
+			isa = PBXGroup;
+			children = (
+				256626BB16306DC700281B13 /* UIImage+kuwahara.h */,
+				256626BC16306DC700281B13 /* UIImage+kuwahara.m */,
+			);
+			name = Filtering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +184,7 @@
 				256626A516306C6D00281B13 /* Default@2x.png in Resources */,
 				256626A716306C6D00281B13 /* Default-568h@2x.png in Resources */,
 				256626AD16306C6D00281B13 /* MabeViewController.xib in Resources */,
+				256626B816306DA000281B13 /* peg.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +198,7 @@
 				2566269D16306C6D00281B13 /* main.m in Sources */,
 				256626A116306C6D00281B13 /* MabeAppDelegate.m in Sources */,
 				256626AA16306C6D00281B13 /* MabeViewController.m in Sources */,
+				2533C5CD16306F1F0057511F /* UIImage+kuwahara.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +312,7 @@
 				256626B216306C6D00281B13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
