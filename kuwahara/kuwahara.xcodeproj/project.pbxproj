@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2566269116306C6D00281B13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269016306C6D00281B13 /* UIKit.framework */; };
+		2566269316306C6D00281B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269216306C6D00281B13 /* Foundation.framework */; };
+		2566269516306C6D00281B13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566269416306C6D00281B13 /* CoreGraphics.framework */; };
+		2566269B16306C6D00281B13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2566269916306C6D00281B13 /* InfoPlist.strings */; };
+		2566269D16306C6D00281B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566269C16306C6D00281B13 /* main.m */; };
+		256626A116306C6D00281B13 /* MabeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256626A016306C6D00281B13 /* MabeAppDelegate.m */; };
+		256626A316306C6D00281B13 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 256626A216306C6D00281B13 /* Default.png */; };
+		256626A516306C6D00281B13 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256626A416306C6D00281B13 /* Default@2x.png */; };
+		256626A716306C6D00281B13 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256626A616306C6D00281B13 /* Default-568h@2x.png */; };
+		256626AA16306C6D00281B13 /* MabeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256626A916306C6D00281B13 /* MabeViewController.m */; };
+		256626AD16306C6D00281B13 /* MabeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256626AB16306C6D00281B13 /* MabeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2566268C16306C6D00281B13 /* kuwahara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kuwahara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2566269016306C6D00281B13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2566269216306C6D00281B13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2566269416306C6D00281B13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2566269816306C6D00281B13 /* kuwahara-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kuwahara-Info.plist"; sourceTree = "<group>"; };
+		2566269A16306C6D00281B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2566269C16306C6D00281B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2566269E16306C6D00281B13 /* kuwahara-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kuwahara-Prefix.pch"; sourceTree = "<group>"; };
+		2566269F16306C6D00281B13 /* MabeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MabeAppDelegate.h; sourceTree = "<group>"; };
+		256626A016306C6D00281B13 /* MabeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MabeAppDelegate.m; sourceTree = "<group>"; };
+		256626A216306C6D00281B13 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		256626A416306C6D00281B13 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		256626A616306C6D00281B13 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		256626A816306C6D00281B13 /* MabeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MabeViewController.h; sourceTree = "<group>"; };
+		256626A916306C6D00281B13 /* MabeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MabeViewController.m; sourceTree = "<group>"; };
+		256626AC16306C6D00281B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MabeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2566268916306C6D00281B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566269116306C6D00281B13 /* UIKit.framework in Frameworks */,
+				2566269316306C6D00281B13 /* Foundation.framework in Frameworks */,
+				2566269516306C6D00281B13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2566268116306C6D00281B13 = {
+			isa = PBXGroup;
+			children = (
+				2566269616306C6D00281B13 /* kuwahara */,
+				2566268F16306C6D00281B13 /* Frameworks */,
+				2566268D16306C6D00281B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2566268D16306C6D00281B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2566268C16306C6D00281B13 /* kuwahara.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2566268F16306C6D00281B13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2566269016306C6D00281B13 /* UIKit.framework */,
+				2566269216306C6D00281B13 /* Foundation.framework */,
+				2566269416306C6D00281B13 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2566269616306C6D00281B13 /* kuwahara */ = {
+			isa = PBXGroup;
+			children = (
+				2566269F16306C6D00281B13 /* MabeAppDelegate.h */,
+				256626A016306C6D00281B13 /* MabeAppDelegate.m */,
+				256626A816306C6D00281B13 /* MabeViewController.h */,
+				256626A916306C6D00281B13 /* MabeViewController.m */,
+				256626AB16306C6D00281B13 /* MabeViewController.xib */,
+				2566269716306C6D00281B13 /* Supporting Files */,
+			);
+			path = kuwahara;
+			sourceTree = "<group>";
+		};
+		2566269716306C6D00281B13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2566269816306C6D00281B13 /* kuwahara-Info.plist */,
+				2566269916306C6D00281B13 /* InfoPlist.strings */,
+				2566269C16306C6D00281B13 /* main.m */,
+				2566269E16306C6D00281B13 /* kuwahara-Prefix.pch */,
+				256626A216306C6D00281B13 /* Default.png */,
+				256626A416306C6D00281B13 /* Default@2x.png */,
+				256626A616306C6D00281B13 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2566268B16306C6D00281B13 /* kuwahara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256626B016306C6D00281B13 /* Build configuration list for PBXNativeTarget "kuwahara" */;
+			buildPhases = (
+				2566268816306C6D00281B13 /* Sources */,
+				2566268916306C6D00281B13 /* Frameworks */,
+				2566268A16306C6D00281B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kuwahara;
+			productName = kuwahara;
+			productReference = 2566268C16306C6D00281B13 /* kuwahara.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2566268316306C6D00281B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mabe;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mabesoft;
+			};
+			buildConfigurationList = 2566268616306C6D00281B13 /* Build configuration list for PBXProject "kuwahara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2566268116306C6D00281B13;
+			productRefGroup = 2566268D16306C6D00281B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2566268B16306C6D00281B13 /* kuwahara */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2566268A16306C6D00281B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566269B16306C6D00281B13 /* InfoPlist.strings in Resources */,
+				256626A316306C6D00281B13 /* Default.png in Resources */,
+				256626A516306C6D00281B13 /* Default@2x.png in Resources */,
+				256626A716306C6D00281B13 /* Default-568h@2x.png in Resources */,
+				256626AD16306C6D00281B13 /* MabeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2566268816306C6D00281B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566269D16306C6D00281B13 /* main.m in Sources */,
+				256626A116306C6D00281B13 /* MabeAppDelegate.m in Sources */,
+				256626AA16306C6D00281B13 /* MabeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2566269916306C6D00281B13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2566269A16306C6D00281B13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		256626AB16306C6D00281B13 /* MabeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256626AC16306C6D00281B13 /* en */,
+			);
+			name = MabeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256626AE16306C6D00281B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		256626AF16306C6D00281B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256626B116306C6D00281B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuwahara/kuwahara-Prefix.pch";
+				INFOPLIST_FILE = "kuwahara/kuwahara-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		256626B216306C6D00281B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kuwahara/kuwahara-Prefix.pch";
+				INFOPLIST_FILE = "kuwahara/kuwahara-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2566268616306C6D00281B13 /* Build configuration list for PBXProject "kuwahara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256626AE16306C6D00281B13 /* Debug */,
+				256626AF16306C6D00281B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256626B016306C6D00281B13 /* Build configuration list for PBXNativeTarget "kuwahara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256626B116306C6D00281B13 /* Debug */,
+				256626B216306C6D00281B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2566268316306C6D00281B13 /* Project object */;
+}
