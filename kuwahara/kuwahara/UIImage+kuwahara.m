@@ -467,10 +467,13 @@ void _kuwahara_filterImage(size_t width, size_t height, ccmp* input, ccmp* outpu
                 _kuwaharaWindow_init(w, inboundRow, width);
                 inboundRow += (2*radius)*width;
                 // we go through all the rows of the current column and push the window down one row at a time
-                for (NSInteger y=radius; y<height-radius; y++, inboundRow += width, _kuwaharaWindow_shiftDown(w, inboundRow)) {
+                for (NSInteger y=radius; y<height-radius; y++, inboundRow += width) {
                     // Here the kuwahara window is centered at pixel (x,y) od the image; we ask it to compute
                     // the filtered value of the current pixel and to assign the result to the output buffer
                     output[width*y+x] = _kuwaharaWindow_currentFilteredValue(w);
+                    if (y<height-radius-1) {
+                        _kuwaharaWindow_shiftDown(w, inboundRow);
+                    }
                 }
             }
             _kuwaharaWindow_release(w);
